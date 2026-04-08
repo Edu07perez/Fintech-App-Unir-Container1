@@ -1,7 +1,7 @@
 ## FinTech App - Unir 
 
 ### Consideraciones para el backend (puerto 3001)
-
+```
   Analizar el package.json antes de crear el Dockerfile.
   Identificar con precisión el comando de arranque de la aplicación.
   Comprobar si el backend necesita únicamente ejecución o también una fase previa de compilación.
@@ -14,8 +14,9 @@
   Proponer un .dockerignore coherente con el proyecto.
   Diferenciar entre dependencias necesarias para desarrollo y para ejecución.
   Justificar técnicamente cada instrucción incluida en el Dockerfile.
-
+```
 ### Consideraciones para el frontend (puerto 80)
+```
   Analizar el package.json antes de crear el Dockerfile.
   Identificar el comando exacto de construcción del frontend.
   Comprobar qué carpeta o artefacto genera el proceso de build.
@@ -30,3 +31,4 @@
   Proponer un .dockerignore coherente con el proyecto.
   Distinguir entre los elementos necesarios para construir la aplicación y los necesarios para ejecutarla.
   Justificar técnicamente cada decisión adoptada en el Dockerfile.
+```
